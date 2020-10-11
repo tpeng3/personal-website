@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+$header-font: "Open Sans", sans-serif;
+$font-stack:    Tahoma, sans-serif;
+$primary-color: #3e3e3e;
+$inactive-color: #999;
+$bold-color: #333;
+$accent-color:#125F6A;
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5em;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  padding-top: 1.4em;
+}
+
+.title > img {
+  width: 12em;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header-links-container {
+  width: 100%;
+  padding-top: 1.4em;
+  padding-bottom: 1.2em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 .02em;
+  padding: 0;
+  display: flex;
+  margin-top: 2.6em;
+  justify-content: space-around;
+  max-width: 40em;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header-links {
+  color: $inactive-color;
+  font: 100% $header-font;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  z-index: 9999;
+}
+
+.header-links:hover {
+  color: $bold-color;
+  transition-duration: 0.3s;
+}
+
+body {
+  margin: auto;
+  color: $primary-color;
+  font: 100% $header-font;
+  font-size: 1em;
+  line-height: 1.2em;
+  margin-bottom: .8em;
+}
+
+#footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.4em;
+}
+
+p > b {
+  font-weight: 600;
+  color: $accent-color;
+}
+
+h1 {
+  font: 100% $header-font;
+  color: $bold-color;
+  font-weight: 700;
+  font-size: 1.6em !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: $bold-color;
+  font-size: 1.4em !important;
+  font-weight: 700;
+  margin-bottom: .2em;
+}
+
+h3 {
+  color: $accent-color;
+  font-size: 1.1em !important;
+  margin-bottom: 1em;
+}
+
+.test {
+  z-index: -100 !important;
+}
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+opacity: 1;
+transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+opacity: 1;
+}
+
+.example-leave.example-leave-active {
+opacity: 0.01;
+transition: opacity 300ms ease-in;
+}

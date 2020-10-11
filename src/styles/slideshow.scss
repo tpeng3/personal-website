@@ -1,0 +1,14 @@
+.carousel-indicators {
+    visibility: hidden
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    margin: 2em;
+    border-radius: 20%;
+    background-color: #73DFCB;
+}
+
+.carousel img {
+    height: auto;
+    max-width: 100%;
+}
