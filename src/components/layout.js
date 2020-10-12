@@ -1,9 +1,5 @@
-import React, { useRef, useState } from "react"
-// import icon from "./../icon.png"
-import gsap from "gsap";
+import React from "react"
 import { Link } from "gatsby"
-import TransitionLink, {TransitionPortal} from "gatsby-plugin-transition-link"
-import ReactCSSTransitionGroup from 'react-transition-group';
 
 import "../styles/global.scss"
 
