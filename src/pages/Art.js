@@ -6,12 +6,10 @@ import slideshowData from "../data/slideshowData.js"
 
 export default () => (
   <Layout childKey="art">
-  <div id="art">
-    <div className="slideshow-container">
-      <Slideshow 
-      data={slideshowData}
-      /> 
-    </div>
+    <div id="art">
+      <div className="slideshow-container">
+        <Slideshow data={slideshowData} />
+      </div>
     </div>
   </Layout>
 )
